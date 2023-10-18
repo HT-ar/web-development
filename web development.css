@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/pro-service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.logo {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bar {
+    width: 100%;
+    height: 13vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: 0px;
+}
+
+.bar h2 {
+    margin-left: -550px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.bar p {
+    margin-right: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(16, 19, 19);
+    text-align: center;
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(11, 10, 10);
+}
+
+.topnav a.active {
+    background-color: #05a8ff;
+    color: white;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.readmore {
+    color: rgb(235, 15, 162);
+}
+
+.readmore:hover {
+    background-color: #df36ba;
+    color: white;
+}
+
+.info {
+    color: dodgerblue;
+}
+
+.info:hover {
+    background: #2196F3;
+    color: white;
+}
+
+.blog {
+    color: orange;
+}
+
+.blog:hover {
+    background: #ff9800;
+    color: white;
+}
+
+.join {
+    color: red;
+}
+
+.join:hover {
+    background: #f44336;
+    color: white;
+}
+
+.Subscribe {
+    color: rgb(254, 252, 252);
+}
+
+.Subscribe:hover {
+    background: #9eba00;
+}
+
+.content {
+    width: 100%;
+    height: 50vh;
+    margin-top: 175px;
+    font-size: 30px;
+
+}
+
+.content h1 {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.content h2 {
+    color: #d29b9b;
+}
+
+.content button {
+    border-radius: 30px;
+    color: rgb(130, 41, 41);
+    width: 100px;
+    height: 40px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(112, 130, 201);
+    text-decoration: underline;
+    margin-bottom: 30px;
+    
+}
+
+.course-offer {
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+}
+
+.course1 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.course1 h2 {
+    color: #033054;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.course2 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.course2 h2 {
+    color: #033054;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.course3 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.course3 h2 {
+    color: #033054;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.course-offer2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.course4 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.course4 h2 {
+    color: #033054;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.course5 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.course5 h2 {
+    color: #033054;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.course6 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+
+.course6 h2 {
+    color: #033054;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    background-color: #000000;
+    height: 15vh;
+}
+
+.foot1 {
+    width: 50px;
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.foot1 img {
+    width: 100px;
+    height: fit-content;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.foot2 {
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 800px;
+    color: white;
+}
+
+.foot2 p a {
+    color: white;
+}
+
+.foot3 {
+    width: 250px;
+    color: white;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    justify-content: center center;
+    margin-left: 700px
+}
+
+.foot3 ul li {
+    list-style: none;
+}
+
+.foot3 ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    background-color: #878383;
+}
+
+.project {
+    color: #9eba00;
+    background-color: #333;
+    text-decoration: underline;
+    text-align: center;
+}
